@@ -1,5 +1,5 @@
 {
-    "name": "marketing-factory/delete-hidden",
+    "name": "mfd/delete-hidden",
     "type": "typo3-cms-extension",
     "description": "Soft-deletes hidden tt_content records older than N days, including recursive b13/container children.",
     "license": "GPL-2.0-or-later",
