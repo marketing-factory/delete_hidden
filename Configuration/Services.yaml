@@ -1,0 +1,12 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  MFD\DeleteHidden\:
+    resource: '../Classes/*'
+    exclude: '../Classes/Task'
+
+  MFD\DeleteHidden\Service\CleanupService:
+    public: true

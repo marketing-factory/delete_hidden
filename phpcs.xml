@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="delete_hidden">
+    <description>PSR-12 coding standard for delete_hidden extension</description>
+    <rule ref="PSR12"/>
+    <file>Classes</file>
+    <file>Tests</file>
+</ruleset>

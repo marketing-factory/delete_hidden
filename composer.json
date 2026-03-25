@@ -1,0 +1,33 @@
+{
+    "name": "marketing-factory/delete-hidden",
+    "type": "typo3-cms-extension",
+    "description": "Soft-deletes hidden tt_content records older than N days, including recursive b13/container children.",
+    "license": "GPL-2.0-or-later",
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^13.4"
+    },
+    "require-dev": {
+        "typo3/testing-framework": "^9.3",
+        "phpstan/phpstan": "^2.0",
+        "squizlabs/php_codesniffer": "^3.0"
+    },
+    "suggest": {
+        "b13/container": "Required for ancestor-chain container traversal in host projects using b13/container"
+    },
+    "autoload": {
+        "psr-4": {
+            "MFD\\DeleteHidden\\": "Classes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MFD\\DeleteHidden\\Tests\\": "Tests/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "delete_hidden"
+        }
+    }
+}

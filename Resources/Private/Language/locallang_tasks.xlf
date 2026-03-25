@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" datatype="plaintext" original="messages"
+          date="2026-03-24T00:00:00Z" product-name="delete_hidden">
+        <header/>
+        <body>
+            <trans-unit id="task.cleanupTask.title" resname="task.cleanupTask.title">
+                <source>Delete Hidden Content Elements</source>
+            </trans-unit>
+            <trans-unit id="task.cleanupTask.description" resname="task.cleanupTask.description">
+                <source>Soft-deletes hidden tt_content records older than the configured number of days, including recursive b13/container children.</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
