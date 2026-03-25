@@ -78,28 +78,15 @@ Tests require the project's Composer dependencies to be installed (the `vendor/`
 
 ```bash
 # From the repository root — run all unit tests for this extension
-ddev exec vendor/bin/phpunit -c extensions/delete_hidden/Tests/Build/UnitTests.xml
+phpunit -c extensions/delete_hidden/Tests/Build/UnitTests.xml
 ```
 
 ```bash
 # From the repository root — run all functional tests for this extension (requires running MySQL database via ddev)
-ddev exec vendor/bin/phpunit -c extensions/delete_hidden/Tests/Build/FunctionalTests.xml
+phpunit -c extensions/delete_hidden/Tests/Build/FunctionalTests.xml
 ```
 
 Test files are located in `Tests/Unit/` and `Tests/Functional/`.
-
-## Code quality
-
-```bash
-# Static analysis
-ddev exec bin/phpstan analyse --memory-limit=512M --no-progress -c phpstan.neon
-
-# Coding standards
-ddev exec bin/phpcs
-
-# Auto-fix coding standard violations
-ddev exec bin/phpcbf
-```
 
 ## Requirements
 
