@@ -25,5 +25,5 @@ declare(strict_types=1);
     'pages',
     'tx_delete_hidden_exclude',
     '',
-    ''
+    'after:--palette--;;miscellaneous'
 );
