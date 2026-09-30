@@ -93,3 +93,13 @@ Test files are located in `Tests/Unit/` and `Tests/Functional/`.
 - TYPO3 13.4+
 - PHP 8.2+
 - [b13/container](https://github.com/b13/container) *(optional)* — required only if the host project uses container elements
+
+
+
+## License
+
+[GPL-2.0-or-later](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+
+## Maintainer
+
+Maintained by [Marketing Factory Digital GmbH](https://www.marketing-factory.de), written by [Ingo Schmitt](https://www.marketing-factory.de/blog/autoren/ingo-schmitt/).

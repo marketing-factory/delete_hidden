@@ -4,6 +4,19 @@
     "description": "Soft-deletes hidden tt_content records older than N days, including recursive b13/container children.",
     "license": "GPL-2.0-or-later",
     "version": "1.0.1",
+    "authors": [
+        {
+            "name": "Ingo Schmitt",
+            "role": "Developer",
+            "email": "ingo.schmitt@marketing-factory.de",
+            "homepage": "https://www.marketing-factory.de"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/marketing-factory/delete_hidden/issues",
+        "source": "https://github.com/marketing-factory/delete_hidden",
+        "security": "https://github.com/marketing-factory/delete_hidden/blob/main/SECURITY.md"
+    },
     "require": {
         "typo3/cms-core": "^13.4"
     },
