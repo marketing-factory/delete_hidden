@@ -1,10 +1,10 @@
-name: Test documentation
+name: test documentation
 
 on: [ push, pull_request ]
 
 jobs:
   tests:
-    name: Render documentation
+    name: documentation
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -14,4 +14,4 @@ jobs:
         run: |
           mkdir -p Documentation-GENERATED-temp \
           && docker run --rm --pull always -v $(pwd):/project \
-             ghcr.io/typo3-documentation/render-guides:latest --config=Documentation --no-progress --fail-on-log
+             ghcr.io/typo3-documentation/render-guides:latest --config=Documentation --no-progress --minimal-test
