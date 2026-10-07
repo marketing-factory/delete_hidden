@@ -3,6 +3,12 @@
 
   <extension class="\T3Docs\Typo3DocsTheme\DependencyInjection\Typo3DocsThemeExtension"
              typo3-core-preferred="stable"
+             project-contact="mailto:ingo.schmitt@marketing-factory.de"
+             project-home="https://github.com/marketing-factory/delete_hidden/"
+             project-repository="https://github.com/marketing-factory/delete_hidden/"
+             project-issues="https://github.com/marketing-factory/delete_hidden/issues"
+             edit-on-github-branch="main"
+             edit-on-github="marketing-factory/delete_hidden"
              interlink-shortcode="mfd/delete_hidden"
   />
 
